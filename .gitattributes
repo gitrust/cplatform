@@ -1,0 +1,40 @@
+
+#
+# File  attributes
+#
+
+*		text=auto
+
+# batch files
+
+*.sh		text eol=lf
+*.bat		text eol=crlf
+
+# Code
+*.py				text eol=lf
+
+# sensible defaults taken from https://github.com/alexkaratarakis/gitattributes
+
+# Documents
+
+*.md		text
+*.adoc	    text
+*.csv		text
+*.tab		text
+*.tsv		text
+*.sql		text
+*.tld		text
+*.txt		text
+*.xml		text
+*.pdf       binary
+*.doc       binary
+
+# Configuration
+
+*.json  			text eol=lf
+*.conf 				text eol=lf
+*.yaml 				text eol=lf
+*.yml 				text eol=lf
+*.properties        text eol=lf
+Makefile     	    text eol=lf
+Dockerfile   	    text eol=lf
